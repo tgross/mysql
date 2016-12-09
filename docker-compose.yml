@@ -12,7 +12,7 @@ mysql:
     environment:
       - CONTAINERPILOT=file:///etc/containerpilot.json
       - CONSUL_AGENT=1
-      - LOG_LEVEL
+      - LOG_LEVEL=INFO
 
 consul:
     image: autopilotpattern/consul:0.7r0.7
